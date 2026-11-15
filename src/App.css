@@ -1,6 +1,16 @@
-html,
-body,
-#root {
-    height: 100%;
+body {
     margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    width: 700px;
+    height: 400px;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 200px 1fr;
+}
+
+.grid-container > div {
+    background-color: #daa520;
 }
